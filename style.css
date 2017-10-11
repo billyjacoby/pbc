@@ -11,14 +11,16 @@ Text Domain: pbc
 /* --- CSS Document  --- */
 
 body {
-	margin: 0px;
+	margin: 0;
 	/* [disabled]color: #777777; */
 	font-size: 12px;
 	font-family: Arial;
 	font-family: Arial, Verdana, Univers;
 	background-color: #cfcfcf;
 }
-
+body, td, th {
+	font-size: small;
+}
 h1 {
 	color: #25476C;
 	font-size: 24px;
@@ -26,6 +28,7 @@ h1 {
 	margin: 3px 0px 25px 0px;
 	text-align: left;
 }
+
 h2 {
 	color: #214265;
 	font-size: 14px;
@@ -35,11 +38,13 @@ h2 {
 	margin-bottom: 15px;
 	margin-left: 0px;
 }
+
 h3 {
 	color: #244669;
 	margin-top: 12px;
 	margin-bottom: 0px;
 }
+
 p {
 	margin-top: 0px;
 	margin-right: 0px;
@@ -51,15 +56,26 @@ p {
 	overflow: visible;
 	color: #777777;
 }
-a          {
+
+a {
 	color: #36C;
 	font-family: Arial, Verdana, Univers;
+	font-weight: bold;
 }
-a:visited  {
+a:link {
+	text-decoration: none;
+}
+a:visited {
 	color: black;
+	text-decoration: none;
 }
-a:hover    {
-
+a:hover {
+	text-decoration: none;
+	color: #2ABF00;
+}
+a:active {
+	text-decoration: none;
+	color: #2A00AA;
 }
 
 .container {
@@ -95,11 +111,6 @@ a:hover    {
 .bannernav a { color: #ffffff; text-decoration: none; }
 .bannernav a:visited { color: #ffffff; }
 .bannernav a:hover { color: #112c4c; text-decoration: none; }
-
-.toplogo {
-
-}
-
 
 /* TOP NAVIGATION AREA */
 .topnavigationArea {
@@ -150,7 +161,7 @@ a:hover    {
 }
 
 
-.contentArea .container {
+.contentArea > .container {
 	padding-top: 30px;
 	padding-bottom: 30px;
 	background-image: url(images/content_bkgd.jpg);
@@ -282,5 +293,39 @@ SideBarText {
 .TableHeader {
 	font-weight: bold;
 }
-.container .contentleft p {
+.circus {
+	float: right;
+	height: 164px;
+	width: 228px;
+	-webkit-box-sizing: content-box;
+	-moz-box-sizing: content-box;
+	box-sizing: content-box;
+	padding-top: 5px;
+	padding-right: 5px;
+	padding-left: 5px;
+	padding-bottom: 5px;
+}
+.oldTimers {
+	float: right;
+	height: 270px;
+	width: 256px;
+	-webkit-box-sizing: content-box;
+	-moz-box-sizing: content-box;
+	box-sizing: content-box;
+	padding-top: 5px;
+	padding-right: 5px;
+	padding-left: 5px;
+	padding-bottom: 5px;
+}
+.picnic {
+	float: right;
+	height: 162px;
+	width: 100px;
+	-webkit-box-sizing: content-box;
+	-moz-box-sizing: content-box;
+	box-sizing: content-box;
+	padding-top: 5px;
+	padding-right: 5px;
+	padding-left: 5px;
+	padding-bottom: 5px;
 }

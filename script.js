@@ -1,0 +1,2 @@
+var MenuBar1 = new Spry.Widget.MenuBar("MenuBar1", {imgDown:"<?php echo get_stylesheet_directory_uri()?>/SpryAssets/SpryMenuBarDownHover.gif", imgRight:"<?php echo get_stylesheet_directory_uri()?>/SpryAssets/SpryMenuBarRightHover.gif"});
+var MenuBar1 = new Spry.Widget.MenuBar("MenuBar1", {imgDown:"<?php echo get_stylesheet_directory_uri()?>/SpryAssets/SpryMenuBarDownHover.gif", imgRight:"<?php echo get_stylesheet_directory_uri()?>/SpryAssets/SpryMenuBarRightHover.gif"});
