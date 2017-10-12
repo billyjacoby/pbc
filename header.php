@@ -14,7 +14,7 @@
 			<div class="container">
 				<img src="<?php echo get_stylesheet_directory_uri()?>/images/aa_logo_gold.png" alt="" name="aatriangle" width="122" height="120" hspace="65" border="0" align="right" class="toplogo" id="aatriangle">
 				<h1 class="BannerText"><br>
-				<span class="toplogo">Palm Beach County Intergroup of Alcoholics Anonymous</span></h1>
+				<span class="toplogo"><?php echo get_bloginfo('name')?></span></h1>
 			</div>
 		</div>
 		<div class="topnavigationArea">

@@ -1,6 +1,6 @@
 			<?php if (!is_archive()) {?>
 				<div class="contentright">
-					<h1>24/7 Help Line<br>561-655-5700 </h1>
+					<h1>24/7 Help Line<br><a href="tel:5616555700">561-655-5700</a></h1>
 					<p class="SideBarText">
 						<strong>
 							<span class="SideBarTextNoItalic">
@@ -10,7 +10,7 @@
 								Office &amp; Store Hours: <br>
 								Monday to Friday: 9am to 5pm <br>
 								Saturday: 10:00am to 2:00pm<br>
-								Business Office: 561-655-6431
+								Business Office: <a href="tel:5616556431">561-655-6431</a>
 							</span>
 						</strong>
 						<strong>
@@ -30,11 +30,11 @@
 						<img src="<?php echo get_stylesheet_directory_uri()?>/images/manonthebed.jpg" alt="" name="maninbed" width="191" height="136" id="maninbed">
 					</p>
 					<p class="SideBarTextNoItalic">
-						<em><strong>God, grant me the <br>
-						Serenity to accept the <br>
-						things I cannot change, <br>
-						Courage to change the things
-						I can,<br> And the Wisdom to know the difference</strong></em>
+						<em><strong>God, grant me the<br>
+						Serenity to accept the<br>
+						things I cannot change,<br>
+						Courage to change the things I can,<br>
+						And the Wisdom to know the difference</strong></em>
 					</p>
 					<p class="SideBarText">&nbsp;</p>
 				</div>
